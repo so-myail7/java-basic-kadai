@@ -21,11 +21,11 @@ public class Car_Chapter15 {
 		case 5 -> this.speed = 50;
 		default -> this.speed = 10;
 		}
+		System.out.println("ギア1から" + this.gear + "に切り替えました");
 	} 	
 	
 	
 	public void run() {
-		System.out.println("ギア1から" + this.gear + "に切り替えました");
 		System.out.println("速度は時速" + this.speed + "kmです");
 	}
 	
